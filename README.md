@@ -1,2 +1,2 @@
-# teerex_store
+# teerex-store
 Created with CodeSandbox

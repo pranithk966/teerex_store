@@ -1,0 +1,92 @@
+.products {
+  width: 80%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-flow: wrap;
+}
+
+.card {
+  width: 32%;
+  background: #fff;
+  margin-bottom: 38px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card-title {
+  display: flex;
+  align-items: flex-start;
+  z-index: 10;
+  font-weight: 900;
+  color: rgb(20, 18, 18);
+  margin-left: 7px;
+  margin-bottom: 0.5rem;
+}
+
+.card-header {
+  text-align: center;
+  padding: 14px 14px;
+  z-index: 1;
+  /* background-color: red; */
+}
+
+.card-header img {
+  width: 100%;
+  z-index: 2;
+  /* background-color:re */
+}
+
+.card-body {
+  padding: 15px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(14, 7, 7);
+  /* background-color:red */
+}
+
+.card-body .btn {
+  display: block;
+  background-color: black;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  /* width: 4; */
+  /* margin-left: 3px; */
+}
+
+.btn:hover {
+  background: rgb(164, 180, 148);
+}
+
+@media only screen and (min-width: 200px) and (max-width: 400px) {
+  .container {
+    width: 100%;
+  }
+
+  .card {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 900px) {
+  .card {
+    width: 45%;
+    margin-right: 15px;
+    /* background-color:red */
+  }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+  .row {
+    justify-content: center;
+  }
+  .products {
+    width: 100%;
+  }
+}

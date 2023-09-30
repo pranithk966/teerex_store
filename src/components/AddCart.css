@@ -1,0 +1,134 @@
+.CartItem {
+  padding: 4.1rem;
+  /* background-color: red; */
+}
+
+.heads {
+  font-size: medium;
+  font-weight: 689;
+  color: rgb(92, 74, 74);
+}
+
+.cart {
+  padding: 2.1rem;
+  /* background-color: red; */
+}
+
+.inner-item-cart {
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+  /* height: 10px; */
+}
+
+.item {
+  margin: 1.1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: red; */
+  /* height: 10px; */
+}
+
+.Products {
+  display: flex;
+  align-items: center;
+  /* height: 10px; */
+}
+
+.productImage {
+  width: 4.2rem;
+  height: 4.2rem;
+  /* background-color: red; */
+}
+
+.productImage img {
+  width: 100%;
+  height: 100%;
+  /* background-color: red; */
+}
+
+.DetailsOfProduct {
+  display: flex;
+  color: rgb(32, 24, 24);
+}
+
+.buttons {
+  display: flex;
+  width: 32%;
+  align-items: center;
+}
+.change {
+  border: none;
+  width: 2.1rem;
+  height: 2.1rem;
+  font-weight: 489;
+  font-size: medium;
+}
+
+.Space {
+  width: 1.3rem;
+  height: 2.3rem;
+}
+
+.deleteItem {
+  border: none;
+  width: 5.11rem;
+  height: 2.11rem;
+  background-color: rgb(54, 67, 75);
+  color: rgb(212, 219, 201);
+  display: block;
+}
+.deleteItem:hover {
+  background-color: rgb(178, 170, 185);
+}
+
+.DetailsOf {
+  font-size: 13.65px;
+}
+
+.section {
+  width: 100%;
+  height: 2.1px;
+  background-color: rgb(231, 188, 188);
+}
+
+.total {
+  margin-left: 10rem;
+  margin-top: 1.75rem;
+  font-weight: bold;
+  color: rgb(17, 11, 11);
+  background-color: rgb(248, 245, 252);
+}
+
+.deleteIcon {
+  display: none;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 450px) {
+  .ItemCart {
+    padding: 4.11rem 2.11rem;
+  }
+  .cart {
+    padding: 2.1rem 0;
+  }
+  .delete {
+    display: none;
+  }
+  .deleteIcon {
+    display: block;
+  }
+  .Space {
+    width: 0.7rem;
+    height: 2.2rem;
+  }
+  .DetailsOfProduct {
+    display: block;
+  }
+
+  .ImageProduct {
+    width: 4.65rem;
+    height: 4.65rem;
+    /* background-color: red; */
+  }
+}

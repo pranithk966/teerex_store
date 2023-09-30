@@ -1,0 +1,118 @@
+.barSearch {
+  display: flex;
+  padding: 0.8rem;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(187, 226, 147);
+}
+
+.buttonForSearch {
+  background-color: rgb(212, 235, 229);
+  position: relative;
+  border-radius: 9.5rem;
+  height: 5vh;
+  width: 10vw;
+}
+.buttonForSearch:hover {
+  background-color: rgb(187, 226, 147);
+  cursor: pointer;
+}
+
+.input {
+  border: none;
+  border-bottom: 2px solid #ccc;
+  width: 30vw;
+  height: 5vh;
+  border-radius: 0.5rem;
+  background-color: rgb(191, 191, 230);
+  color: rgb(0, 0, 224);
+  font-size: 16px;
+}
+input:hover {
+  background-color: rgb(187, 226, 147);
+}
+
+.space-gap {
+  width: 2rem;
+  height: auto;
+  display: inline-block;
+}
+
+::placeholder {
+  color: gray;
+  opacity: 0.5;
+}
+
+.buttonForFilter {
+  background-color: rgb(212, 235, 229);
+  position: relative;
+  border-radius: 9.5rem;
+  height: 5vh;
+  width: 5vw;
+  display: none;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.dashboard {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 4rem;
+  background-color: rgb(187, 226, 147);
+}
+
+@media screen and (max-width: 900px) {
+  .dashboard {
+    padding: 0px;
+    padding-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .barSearch {
+    display: flex;
+    padding: 2rem 1rem;
+    justify-content: left;
+  }
+
+  .input {
+    width: 55vw;
+  }
+
+  .buttonForSearch {
+    height: 5vh;
+    width: 15vw;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .barSearch {
+    display: flex;
+    padding: 2rem 1rem;
+    justify-content: left;
+  }
+
+  .input {
+    width: 55vw;
+  }
+
+  .buttonForSearch {
+    height: 5vh;
+    width: 15vw;
+  }
+
+  .buttonForFilter {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 4px;
+    background-color: rgb(212, 235, 229);
+  }
+}
